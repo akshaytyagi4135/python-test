@@ -1,6 +1,6 @@
 install:
 	@echo "Intsalling Covergae"
-	@sudo pip3 install coverage
+	@pip3 install coverage
 	
 build:
 	@coverage run hello.py
